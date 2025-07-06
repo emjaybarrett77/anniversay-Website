@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Happy Anniversary</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section class="greeting">
+    <h1>To Pitt,<br>Happy 1st of Many Anniversaries 💛</h1>
+  </section>
+
+  <section class="gallery">
+    <h2>Our Memories</h2>
+    <div class="photos">
+      <img src="photos/photo1.jpg" alt="Photo 1">
+      <img src="photos/photo2.jpg" alt="Photo 2">
+      <img src="photos/photo3.jpg" alt="Photo 3">
+      <img src="photos/photo4.jpg" alt="Photo 4">
+      <img src="photos/photo5.jpg" alt="Photo 5">
+      <img src="photos/photo6.jpg" alt="Photo 6">
+    </div>
+  </section>
+
+  <section class="love-letter">
+    <h2>Love Letter 💌</h2>
+    <div class="envelope" onclick="openEnvelope()">
+      <div class="flap"></div>
+      <div class="letter">
+        <p>Dear Pitt. Hi. Been a year na noh? Where has time gone? We have come a long way and I'm super proud. I'm thankful to have you by my side in everything and anything. Thank you for making me smile and loving me.</p>
+        <p>I know I'm not always in the best of moods but you still put up with me. Please know that I love you so much and that I'm thankful to have you in my life. I'm here for you always—through every problem and every solution.</p>
+        <p>I'll forever make you your Excel and help you balance it. I'll forever make sure that you are well and healthy. And I'll forever be by your side until you want me.</p>
+        <p>I love you soo much. Happy 1st, bebu.</p>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
